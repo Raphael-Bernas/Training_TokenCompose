@@ -13,11 +13,11 @@ PROJ_NAME=TokenCompose
 RUN_NAME=TokenCompose
 
 # checkpoint settings
-CHECKPOINT_STEP=4000
+CHECKPOINT_STEP=1000
 CHECKPOINT_LIMIT=10
 
 # allow 500 extra steps to be safe
-MAX_TRAINING_STEPS=24500
+MAX_TRAINING_STEPS=2450
 
 # loss and lr settings
 TOKEN_LOSS_SCALE=1e-3
